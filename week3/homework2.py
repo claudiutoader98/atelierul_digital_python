@@ -19,9 +19,9 @@ def read_from_keyboard():
 
 
 if __name__ == '__main__':
-    print(my_function(1, 5, -3, 'abc', [12, 56, 'cad']))
-    print(my_function(2, 4, 'abc', param_1=2))
-    print("Your input: ", read_from_keyboard())
-    print("Sum 0 -> n: ", my_sum(5))
-    print("Sum even 0 -> n: ", my_even_sum(5))
-    print("Sum odd 0 -> n: ", my_odd_sum(5))
+    print(f"{my_function(1, 5, -3, 'abc', [12, 56, 'cad'])}")
+    print(f"{my_function(2, 4, 'abc', param_1=2)}")
+    print(f"Your input: {read_from_keyboard()}")
+    print(f"Sum 0 -> n: {my_sum(5)}")
+    print(f"Sum even 0 -> n: {my_even_sum(5)}")
+    print(f"Sum odd 0 -> n: {my_odd_sum(5)}")
